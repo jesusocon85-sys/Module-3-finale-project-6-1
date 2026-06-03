@@ -27,7 +27,18 @@
               <a href="#" class="nav__link login">Login</a>
               <a href="#" class="nav__link nav__link--primary">Sign Up</a>
             </div>
-            <header>
+           <button class="btn__menu" onclick="openMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+            </svg>
+            </div>
+        </nav>
+        <div class="menu">
+             <header>
                 <div class="header__container">
                     <div class="row">
                         <div class="header__description"></div>
@@ -49,17 +60,6 @@
                         <img src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" class="header__img">
                     </figure>
             </header>
-            <button class="btn__menu" onclick="openMenu()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-        </button>
-            </svg>
-            </div>
-        </nav>
-        <div class="menu">
           <button class="btn__menu btn__menu--close" onclick="closeMenu()"></button>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light___StyledCloseIcon-lj69nl-14 fASujC">
             <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -286,8 +286,10 @@
                 <div class="value">
                  <div class="value__title">
                  <figure class="value__img--wrapper"></figure>
-                 <img src="./assets/briefcase.svg">
-                 </figure>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(155, 44, 44, 1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="value__img">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                 </svg>
                  <div class="value__name">Professionalism</div>
                  </div>
                  <div class="value__para">
@@ -297,6 +299,7 @@
             </div>
             <button class="btn">Learn More</button>
           </div>
+          <img class="values__img" src="/assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg">
           </div>  
          </div>   
         </section>
@@ -378,11 +381,11 @@
         <section id="testimonials">
             <div class="container">
                 <div class="row">
-                    <img src="./assets/assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt class="testimonials__img">
+                    <img src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt class="testimonials__img">
                     <div class="testimonials__description">
                       <div class="section__tag">testimonials</div>
                       <h2 class="section__title">
-                        " Our Clients "
+                        Our Clients
                         <span class="purple">Love Us.</span>
                       </h2>
                       <p class="section__para">
@@ -391,19 +394,19 @@
                       <div class="testimonial">
                         <div class="testimonial__rating">
                             <i class="fas fa-star" aria-hidden="true">
-                              ::before
+                              
                             </i>
                            <i class="fas fa-star" aria-hidden="true">
-                            ::before
+                            
                            </i>
                            <i class="fas fa-star" aria-hidden="true">
-                            ::before
+                            
                            </i>
                            <i class="fas fa-star" aria-hidden="true">
-                            ::before
+                            
                            </i>
                            <i class="fas fa-star" aria-hidden="true">
-                            ::before
+                            
                            </i>
                         </div>
                         <h3 class="testimonial__title">Amazing User Experiance</h3>
@@ -420,12 +423,12 @@
                             </div>
                             <div class="testimonial__button">
                                 <button class="testimonial__button">
-                                    <svg fill="none" stroke="rgb(100,21,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
-                                <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
-                                 </svg>
-                                 </button>
-
-                                 <button class="testimonial__button">
+                                    <svg fill="none" stroke="rgb(100,21,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">…
+                                        <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                                    </svg>
+                                  </button>
+                                  <div class="divider"></div>
+                                  <button class="testimonial__button">
                                   <svg fill="none" stroke="rgb(100,21,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
                                  <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                  </svg>
